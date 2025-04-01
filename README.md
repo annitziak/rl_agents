@@ -1,6 +1,6 @@
 # Reinforcement Learning Agents
 
-This repository contains code for multiple RL concepts, such as Dynamic Programming, Tabular Reinforcement Learning, Deep Reinforcement Learning through Deep Q Networks (DQN) and Deep Deterministic Policy Gradient (DDPG)
+This repository contains code for multiple RL concepts, such as Dynamic Programming, Tabular Reinforcement Learning, Deep Reinforcement Learning through Deep Q Networks (DQN) and Deep Deterministic Policy Gradient (DDPG).
 The goal was to implement, analyze, and extend reinforcement learning (RL) algorithms in both discrete and continuous environments using PyTorch.
 
 ## 📚 Structure
