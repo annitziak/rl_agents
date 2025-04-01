@@ -9,7 +9,7 @@ The goal was to implement, analyze, and extend reinforcement learning (RL) algor
 ### **Dynamic Programming** 
 - Implemented **Value Iteration** and **Policy Iteration** algorithms.
 - Verified correctness using toy MDPs (example with "Frog on a Rock").
-- Key file: `exercise1/mdp_solver.py`
+- Key file: `mdp_solver.py`
 
 ### **Tabular Reinforcement Learning**
 - Implemented and evaluated agent performance on `FrozenLake8x8-v1` (deterministic and slippery variants).
@@ -17,7 +17,7 @@ The goal was to implement, analyze, and extend reinforcement learning (RL) algor
   - **Q-Learning**
   - **On-policy Every-Visit Monte Carlo**
 - Explored and compared hyperparameter profiles with different choices for `gamma`.
-- Key files: `exercise2/agents.py`, `train_q_learning.py`, `train_monte_carlo.py`
+- Key files: `agents.py`, `train_q_learning.py`, `train_monte_carlo.py`
 
 ### **Deep Reinforcement Learning**
 - Implemented **Deep Q-Networks (DQN)** with:
@@ -26,13 +26,13 @@ The goal was to implement, analyze, and extend reinforcement learning (RL) algor
   - Gradient-based updates
 - Compared DQN with a tabular discrete agent on the `MountainCar-v0` environment.
 - Analyzed the DQN loss and learning behavior.
-- Key files: `exercise3/agents.py`, `train_dqn.py`
+- Key files: `agents.py`, `train_dqn.py`
 
 ### **Continuous Control with DDPG** 
 - Implemented the **Deep Deterministic Policy Gradient (DDPG)** algorithm for continuous action spaces.
 - Trained agents on the `Racetrack` environment from `highway-env`.
 - Tuned actor/critic network architectures to achieve competitive performance. Achieved more **stable** results and increased avg reward by **+440** from given baseline.
-- Key files: `exercise4/agents.py`, `train_ddpg.py`, `evaluate_ddpg.py`
+- Key files: `agents.py`, `train_ddpg.py`, `evaluate_ddpg.py`
 
 ### **Algorithm Extensions on Tabular Reinforcement Learning**
 - Explored other epsilon decay strategies for the `FrozenLake8x8-v1` stochastic variant.
